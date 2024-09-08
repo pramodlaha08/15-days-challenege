@@ -57,4 +57,4 @@ async function checkWeather(city) {
 }
 
 
-// checkWeather();
+window.addEventListener('DOMContentLoaded', () => checkWeather('Biratnagar'));
