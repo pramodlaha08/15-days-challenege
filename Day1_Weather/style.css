@@ -20,6 +20,7 @@ body {
     border-radius: 20px;
     padding: 45px 35px;
     text-align: center;
+    border-radius: 12px;
 }
 
 .search {
@@ -27,6 +28,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-radius: 12px;
+    background-color: #ebfffc;
 }
 
 .search input {
@@ -40,7 +43,21 @@ body {
     flex: 1;
     margin-right: 16px;
     font-size: 18px;
+    width: 100%;
 }
+
+@media screen and (max-width: 500px) {
+    .search input::placeholder {
+        font-size: 0.9rem;
+    }
+
+    .card {
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+}
+
+
 
 .search button {
     border: 0;
@@ -82,7 +99,13 @@ body {
     align-items: center;
     padding: 0 20px;
     margin-top: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+
 }
+
+
 
 .col {
     display: flex;
@@ -112,4 +135,26 @@ body {
     margin-top: 2rem;
     display: none;
 
+}
+
+@media screen and (max-width: 475px) {
+    .weather h1{
+        font-size: 70px;
+    }
+    .weather h2{
+        font-size: 30px;
+    }
+    .col {
+        font-size: 0.9rem;
+    }
+
+    .col img {
+        width: 35px;
+    }
+
+    .humidity,
+    .wind{
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
 }
