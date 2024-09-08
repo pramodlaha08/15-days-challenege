@@ -23,5 +23,4 @@ Welcome to the **15 Days of Code** challenge! Each day brings a new project to h
 ## 📚 How to Use
 - Clone the repository:
   ```bash
-  git clone https://github.com/yourusername/15-days-challenge.git
-
+  git clone https://github.com/pramodlaha08/15-days-challenege.git
