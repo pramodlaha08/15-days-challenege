@@ -50,6 +50,9 @@ async function checkWeather(city) {
             console.log("Error : ", e);
             document.querySelector('.weather').style.display = "none";
             document.querySelector('.error').style.display = "block";
+            setTimeout(() => {
+                document.querySelector('.error').style.display = "none";
+            },2000)
         })
 }
 
