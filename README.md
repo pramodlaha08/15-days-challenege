@@ -6,8 +6,8 @@ Welcome to the **15 Days of Code** challenge! Each day brings a new project to h
 |:---------:|:-------------------|:-------------------|
 | **Day 1** | [Weather](./Day1_Weather) | [🔗 Live Demo](https://pramodlaha08.github.io/15-days-challenege/Day1_Weather/) |
 | **Day 2** | [TODO](./Day2_Todo) | [🔗 Live Demo](https://pramodlaha08.github.io/15-days-challenege/Day2_Todo/) |
-<!-- | **Day 3** | [Project 3 Name](./day3) | [🔗 Live Demo](#) |
-| **Day 4** | [Project 4 Name](./day4) | [🔗 Live Demo](#) |
+| **Day 3** | [Password Generator](./Day3_RandomPasswordGenerator) | [🔗 Live Demo](https://pramodlaha08.github.io/15-days-challenege/Day3_RandomPasswordGenerator/) |
+<!-- | **Day 4** | [Project 4 Name](./day4) | [🔗 Live Demo](#) |
 | **Day 5** | [Project 5 Name](./day5) | [🔗 Live Demo](#) |
 | **Day 6** | [Project 6 Name](./day6) | [🔗 Live Demo](#) |
 | **Day 7** | [Project 7 Name](./day7) | [🔗 Live Demo](#) |
