@@ -13,7 +13,7 @@ createBtn.addEventListener('click', () => {
     let img = document.createElement('img');
     inputBox.classList.add('input-box');
     inputBox.setAttribute("contenteditable", "true");
-    img.src = "./assets/images/delete.png";
+    img.src = "./assets/svgs/delete.svg";
     notesContainer.appendChild(inputBox).appendChild(img);
 
 })
