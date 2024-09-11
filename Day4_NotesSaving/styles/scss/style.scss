@@ -13,19 +13,19 @@
     padding-top: 4%;
     padding-left: 10%;
 
-    #{&}__header {
+    &__header {
         display: flex;
         align-items: center;
         font-size: 35px;
         font-weight: 600;
 
-        &__image {
+        &--image {
             width: 60px;
 
         }
     }
 
-    #{&}__btn {
+    &__btn {
         display: flex;
         align-items: center;
         background: linear-gradient(#9418fd, #571094);
@@ -37,8 +37,9 @@
         padding: 15px 25px;
         margin: 30px 0 20px;
         cursor: pointer;
+        width: fit-content;
 
-        &__image {
+        &--image {
             width: 25px;
             margin-right: 8px;
         }
