@@ -1,1 +1,2 @@
-/dist/
+# Ignore dist folder inside styles/scss
+/styles/scss/dist/
