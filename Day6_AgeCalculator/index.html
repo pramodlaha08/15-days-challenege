@@ -5,11 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project_name</title>
-    <link rel="stylesheet" href="./styles/dist/style.css">
+    <link rel="stylesheet" href="./styles/dist/css/style.css">
 </head>
 
 <body>
-
+    <div class="container">
+        <div class="calculator">
+            <h1 class="calculator__heading">Age Calculator</h1>
+            <div class="calculator__input">
+                <input class="calculator__input--inputfield" type="date" id="date">
+                <button class="calculator__input--button" onclick="calculateAge()">Calculate</button>
+            </div>
+            <p id="result"></p>
+        </div>
+    </div>
+ 
     <script src="./scripts/main.js"></script>
 </body>
 
