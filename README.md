@@ -9,8 +9,8 @@ Welcome to the **15 Days of Code** challenge! Each day brings a new project to h
 | **Day 3** | [Password Generator](./Day3_RandomPasswordGenerator) | [🔗 Live Demo](https://pramodlaha08.github.io/15-days-challenege/Day3_RandomPasswordGenerator/) |
 | **Day 4** | [Notes Keeping](./Day4_NotesSaving) | [🔗 Live Demo](https://pramodlaha08.github.io/15-days-challenege/Day4_NotesSaving/) |
 | **Day 5** | [GSAP Practcie](./Day5_GsapLearning) | [🔗 Live Demo](https://pramodlaha08.github.io/15-days-challenege/Day5_GsapLearning/) |
-<!-- | **Day 6** | [Project 6 Name](./day6) | [🔗 Live Demo](#) |
-| **Day 7** | [Project 7 Name](./day7) | [🔗 Live Demo](#) |
+| **Day 6** | [Project 6 Name](./Day6_AgeCalculator) | [🔗 Live Demo](https://pramodlaha08.github.io/15-days-challenege/Day6_AgeCalculator/) |
+<!-- | **Day 7** | [Project 7 Name](./day7) | [🔗 Live Demo](#) |
 | **Day 8** | [Project 8 Name](./day8) | [🔗 Live Demo](#) |
 | **Day 9** | [Project 9 Name](./day9) | [🔗 Live Demo](#) |
 | **Day 10** | [Project 10 Name](./day10) | [🔗 Live Demo](#) |
