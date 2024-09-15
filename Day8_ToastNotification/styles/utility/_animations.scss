@@ -1,0 +1,11 @@
+@keyframes moveleft{
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes anim{
+    100%{
+        width: 0;
+    }
+}
