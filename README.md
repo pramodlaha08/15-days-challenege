@@ -11,8 +11,8 @@ Welcome to the **15 Days of Code** challenge! Each day brings a new project to h
 | **Day 5** | [GSAP Practcie](./Day5_GsapLearning) | [🔗 Live Demo](https://pramodlaha08.github.io/15-days-challenege/Day5_GsapLearning/) |
 | **Day 6** | [Age Calculator](./Day6_AgeCalculator) | [🔗 Live Demo](https://pramodlaha08.github.io/15-days-challenege/Day6_AgeCalculator/) |
 | **Day 7** | [QR Generator](./Day7_QrGenerator) | [🔗 Live Demo](https://pramodlaha08.github.io/15-days-challenege/Day7_QrGenerator/) |
-<!-- | **Day 8** | [Project 8 Name](./day8) | [🔗 Live Demo](#) |
-| **Day 9** | [Project 9 Name](./day9) | [🔗 Live Demo](#) |
+| **Day 8** | [Toast Notification](./day8) | [🔗 Live Demo](https://pramodlaha08.github.io/15-days-challenege/Day8_ToastNotification/) |
+<!-- | **Day 9** | [Project 9 Name](./day9) | [🔗 Live Demo](#) |
 | **Day 10** | [Project 10 Name](./day10) | [🔗 Live Demo](#) |
 | **Day 11** | [Project 11 Name](./day11) | [🔗 Live Demo](#) |
 | **Day 12** | [Project 12 Name](./day12) | [🔗 Live Demo](#) |
