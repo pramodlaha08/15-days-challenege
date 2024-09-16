@@ -18,37 +18,16 @@
         <h1 class="main__title">Github Random Repository Finder</h1>
         <div class="main__selection">
             <select name="language" id="language">
-                <option selected value="">Select Languages</option>
+                <option selected value="Javascript">Javascript</option>
             </select>
-            <button class="main__selection--button">Find</button>
+            <button class="main__selection--button" id="find">Find</button>
         </div>
         <div class="result">
-            <div class="result__left">
-                <h2 class="result__topic">Javascript Challenges</h2>
-                <p class="result__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero beatae
-                    similique nobis temporibus alias non!</p>
-                <div class="result__details">
-                    <div class="result__details--stars flex-center">
-                        <img width="16" src="./assets/svgs/stars.svg" alt="">
-                        <span class="data">43</span>
-                    </div>
-                    <div class="result__details--forks flex-center">
-                        <img width="16" src="./assets/svgs/repos-forks.svg" alt="">
-                        <span class="data">700</span>
-                    </div>
-                    <div class="result__details--issues flex-center">
-                        <img width="16" src="./assets/svgs/issues.svg" alt="">
-                        <span class="data">71</span>
-                    </div>
-                </div>
-            </div>
-            <div class="result__right">
-                <img width="50" src="./assets/svgs/github-svgrepo-com.svg" alt="">
-            </div>
+            
         </div>
 
     </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script type="module" src="./scripts/main.js"></script>
 </body>
