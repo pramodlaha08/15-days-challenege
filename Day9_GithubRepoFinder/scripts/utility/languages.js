@@ -9,7 +9,6 @@ export async function languages() {
              let langData = data;
              for (let i = 1; i < langData.length; i++){
                  select.innerHTML+=`<option value='${langData[i].value}'>${langData[i].value}</option>`
-                 console.log(langData[i].value);
              }
              
          })
