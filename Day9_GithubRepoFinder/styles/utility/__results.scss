@@ -1,12 +1,57 @@
-
+$headFont: "Poppins", sans-serif;
+$paraFont: "Roboto", sans-serif;
 .result{
     width: 70%;
     height: 11rem;
     margin: 1rem auto;
-    background-color: aliceblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e5e5e5;
 
     &__topic{
-        
+        font-family: $headFont;
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: left;
+    }
+
+    &__paragraph{
+        text-align: left;
+        font-family: $paraFont;
+        font-size: 0.7rem;
+        font-style: italic;
+        font-weight: 400;
+        opacity: 0.7;
+        width: 90%;
+    }
+
+    &__details{
+        width: 70%;
+        height: 2.3rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        opacity: 0.8;
+    }
+
+    &__right{
+        height: 100%;
+        width: 30%;
+        display: flex;
+        align-items: center;
+
+        & img{
+            width: 6rem;
+        }
     }
 }
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
 
