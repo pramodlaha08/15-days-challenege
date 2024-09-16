@@ -65,12 +65,17 @@ html, body {
   justify-content: space-between;
   align-items: center;
   background-color: #e5e5e5;
+  padding: 1rem;
+}
+.result__left {
+  width: 70%;
 }
 .result__topic {
   font-family: "Poppins", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 600;
   text-align: left;
+  width: 100%;
 }
 .result__paragraph {
   text-align: left;
@@ -97,6 +102,21 @@ html, body {
 }
 .result__right img {
   width: 6rem;
+  cursor: pointer;
+}
+.result__extradetails {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  font-family: "Roboto", sans-serif;
+  padding-left: 7px;
+}
+.result__extradetails--languages {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .flex-center {
