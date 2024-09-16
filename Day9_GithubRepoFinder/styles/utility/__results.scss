@@ -1,6 +1,7 @@
 $headFont: "Poppins", sans-serif;
 $paraFont: "Roboto", sans-serif;
-.result{
+
+.result {
     width: 70%;
     height: 11rem;
     margin: 1rem auto;
@@ -9,15 +10,22 @@ $paraFont: "Roboto", sans-serif;
     justify-content: space-between;
     align-items: center;
     background-color: #e5e5e5;
+    padding: 1rem;
 
-    &__topic{
-        font-family: $headFont;
-        font-size: 1.3rem;
-        font-weight: 600;
-        text-align: left;
+    &__left {
+        width: 70%;
+
     }
 
-    &__paragraph{
+    &__topic {
+        font-family: $headFont;
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: left;
+        width: 100%;
+    }
+
+    &__paragraph {
         text-align: left;
         font-family: $paraFont;
         font-size: 0.7rem;
@@ -27,7 +35,7 @@ $paraFont: "Roboto", sans-serif;
         width: 90%;
     }
 
-    &__details{
+    &__details {
         width: 70%;
         height: 2.3rem;
         display: flex;
@@ -36,22 +44,38 @@ $paraFont: "Roboto", sans-serif;
         opacity: 0.8;
     }
 
-    &__right{
+    &__right {
         height: 100%;
         width: 30%;
         display: flex;
         align-items: center;
 
-        & img{
+        & img {
             width: 6rem;
+            cursor: pointer;
+
+        }
+    }
+
+    &__extradetails {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        font-size: 0.8rem;
+        font-family: $paraFont;
+        padding-left: 7px;
+
+        &--languages {
+            display: flex;
+            align-items: center;
+            gap: 5px;
         }
     }
 }
 
-.flex-center{
+.flex-center {
     display: flex;
     align-items: center;
     gap: 2px;
 }
-
-
