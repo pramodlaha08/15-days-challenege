@@ -1,0 +1,55 @@
+$headFont: "Poppins", sans-serif;
+$paraFont: "Roboto", sans-serif;
+.main{
+    width: 40%;
+    position: relative;
+    top:10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rebeccapurple;
+    height: calc(100vh - 10%);
+    text-align: center;
+    &__title{
+        text-align: center;
+        font-family: $headFont;
+        font-weight: 500;
+        font-size: 1.7rem;
+    }
+
+    &__selection{
+        width: 100%;
+        height: 10rem;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        & select{
+            width: 30%;
+            height: 2rem;
+            outline: none;
+            border: 1px solid #706565;
+            border-radius: 8px;
+            font-family: $paraFont;
+
+            & option{
+                font-family: inherit;
+            }
+        }
+
+        &--button{
+            padding: 5px;
+            text-align: center;
+            width: 3rem;
+            height: 2rem;
+            outline: none;
+            border: 1px solid black;
+            border-radius: 8px;
+            font-family: $paraFont;
+            font-weight: 500;
+            font-size: 0.85rem;
+        }
+    }
+
+}
