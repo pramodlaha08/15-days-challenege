@@ -9,7 +9,20 @@
 </head>
 
 <body>
-    <script src="./scripts/main.js"></script>
+    <div class="main">
+        <h1 class="main__title">Github Random Repository Finder</h1>
+        <div class="main__selection">
+            <select name="language" id="language">
+                <option selected value="">Select Languages</option>
+            </select>
+            <button class="main__selection--button">Find</button>
+        </div>
+
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script type="module" src="./scripts/main.js"></script>
 </body>
 
 </html>
