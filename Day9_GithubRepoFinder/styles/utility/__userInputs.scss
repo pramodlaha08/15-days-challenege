@@ -1,5 +1,4 @@
-$headFont: "Poppins", sans-serif;
-$paraFont: "Roboto", sans-serif;
+@use './_variables';
 .main{
     width: 40%;
     position: relative;
