@@ -16,8 +16,8 @@ Welcome to the **15 Days of Code** challenge! Each day brings a new project to h
 | **Day 10** | [Simple Music Player](./Day10_MusicPlayer) | [🔗 Live Demo](https://pramodlaha08.github.io/15-days-challenege/Day10_MusicPlayer/) |
 | **Day 11** | [Text To Speech](./Day11_TextToSpeech) | [🔗 Live Demo](https://pramodlaha08.github.io/15-days-challenege/Day11_TextToSpeech/) |
 | **Day 12** | [Expense Tracker](./Day12_ExpenseTracker) | [🔗 Live Demo](https://pramodlaha08.github.io/15-days-challenege/Day12_ExpenseTracker/) |
-<!-- | **Day 13** | [Project 13 Name](./day13) | [🔗 Live Demo](#) |
-| **Day 14** | [Project 14 Name](./day14) | [🔗 Live Demo](#) |
+| **Day 13** | [Mega Navbar](./Day13_MegaNavbar) | [🔗 Live Demo](https://pramodlaha08.github.io/15-days-challenege/Day13_MegaNavbar/) |
+<!-- | **Day 14** | [Project 14 Name](./day14) | [🔗 Live Demo](#) |
 | **Day 15** | [Project 15 Name](./day15) | [🔗 Live Demo](#) | -->
 
 ## 📚 How to Use
