@@ -1,0 +1,71 @@
+:root {
+    ---maincolor: #9A2036;
+    ---blackcolor: #131515;
+    ---lightcolor: #9F9FED;
+    ---darkcolor: #6369D1;
+    ---bodywhitecolor: #FFFFFF;
+    ---creamywhitecolor: #FEFEFA;
+    ---topicfont: 'Poppins', sans-serif;
+    ---bodyfont: 'Roboto Mono', monospace;
+
+}
+.cwhite{
+    color: var(---creamywhitecolor);
+}
+
+.cred {
+    color: var(---maincolor);
+}
+
+.cblack {
+    color: var(---blackcolor);
+}
+
+.cdark {
+    color: var(---darkcolor);
+}
+
+.bgwhite{
+    background-color: var(---creamywhitecolor);
+}
+
+.dflex {
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+.robo{
+    font-family: var(---bodyfont);
+}
+.popp{
+    font-family: var(---topicfont);
+}
+.b100{
+    font-weight: 100;
+}
+.b200{
+    font-weight: 200;
+}
+.b300{
+    font-weight: 300;
+}
+
+.b400{
+    font-weight: 400;
+}
+.b500{
+    font-weight: 500;
+}
+.b600{
+    font-weight: 600;
+}
+.b700{
+    font-weight: 700;
+}
+
+.linone{
+    list-style: none;
+    color: var(---darkcolor);
+}
